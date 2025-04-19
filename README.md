@@ -2,134 +2,134 @@
 
 ![KetchUp Logo](https://via.placeholder.com/150x150.png?text=KetchUp)
 
-KetchUp ist eine All-in-One-Webanwendung für kleine bis mittelgroße Gastronomiebetriebe, die Mitarbeiterverwaltung, Schichtplanung, Inventarmanagement und weitere Funktionen in einer intuitiven Oberfläche vereint.
+KetchUp is an all-in-one web application for small to medium-sized hospitality businesses, combining employee management, shift planning, inventory management, and other functions in an intuitive interface.
 
 ## 🌟 Features
 
-### Mitarbeiterverwaltung
-- Mitarbeiterprofile mit Kontaktdaten und Positionen
-- Avatar-Generierung für Mitarbeiter
-- Übersichtliche Listendarstellung aller Mitarbeiter
-- Einfaches Hinzufügen, Bearbeiten und Löschen von Mitarbeitern
+### Employee Management
+- Employee profiles with contact details and positions
+- Avatar generation for employees
+- Clear list view of all employees
+- Easy adding, editing, and deleting of employees
 
-### Schichtplanung
-- macOS-ähnlicher Kalender mit Drag-and-Drop-Funktionalität
-- Wöchentliche und monatliche Ansichten
-- Kontextmenü für schnelle Aktionen
-- Mitarbeiterzuweisung zu Schichten
-- Konfliktprüfung bei Schichtplanung
+### Shift Planning
+- macOS-like calendar with drag-and-drop functionality
+- Weekly and monthly views
+- Context menu for quick actions
+- Employee assignment to shifts
+- Conflict checking in shift planning
 
-### Inventarmanagement
-- Kategorisierte Inventarliste (Getränke, Lebensmittel, Verbrauchsmaterial)
-- Bestandsverfolgung mit visuellen Indikatoren für niedrige Bestände
-- Einfache Ein- und Ausgangsbuchungen
-- Wertberechnung des Gesamtinventars
-- Nachbestellungsbenachrichtigungen
+### Inventory Management
+- Categorized inventory list (beverages, food, supplies)
+- Stock tracking with visual indicators for low stock levels
+- Simple inbound and outbound transactions
+- Total inventory value calculation
+- Reorder notifications
 
 ### Dashboard
-- Echtzeit-Übersicht über aktuelle Schichten und anwesende Mitarbeiter
-- Inventarstatus und Warnungen bei niedrigen Beständen
-- Tagesumsätze und Verkaufsstatistiken
-- Anpassbare Widgets für wichtige Kennzahlen
+- Real-time overview of current shifts and present employees
+- Inventory status and warnings for low stock levels
+- Daily sales and sales statistics
+- Customizable widgets for key metrics
 
-## 🛠️ Technologie-Stack
+## 🛠️ Technology Stack
 
 ### Frontend
-- **Next.js 14**: React-Framework mit App Router
-- **Tailwind CSS**: Utility-First CSS-Framework
-- **shadcn/ui**: Wiederverwendbare UI-Komponenten
-- **Lucide Icons**: Moderne Icon-Bibliothek
+- **Next.js 14**: React framework with App Router
+- **Tailwind CSS**: Utility-first CSS framework
+- **shadcn/ui**: Reusable UI components
+- **Lucide Icons**: Modern icon library
 
 ### Backend
-- **tRPC**: Typsichere API-Integration
-- **Supabase**: Datenbank und Authentifizierung
-- **PostgreSQL**: Relationale Datenbank
+- **tRPC**: Type-safe API integration
+- **Supabase**: Database and authentication
+- **PostgreSQL**: Relational database
 
-### Authentifizierung
-- **Clerk**: Benutzerauthentifizierung und -verwaltung
+### Authentication
+- **Clerk**: User authentication and management
 
 ### Deployment
-- **Vercel**: Hosting und Deployment
-- **GitHub Actions**: CI/CD-Pipeline
+- **Vercel**: Hosting and deployment
+- **GitHub Actions**: CI/CD pipeline
 
-## 📋 Entwicklungsfortschritt
+## 📋 Development Progress
 
-### Abgeschlossene Funktionen
+### Completed Features
 
-#### Mitarbeiterverwaltung
-- ✅ Mitarbeiterliste mit Suchfunktion
-- ✅ Formular zum Hinzufügen/Bearbeiten von Mitarbeitern
-- ✅ Avatar-Generierung
-- ✅ API-Integration mit Supabase
+#### Employee Management
+- ✅ Employee list with search function
+- ✅ Form for adding/editing employees
+- ✅ Avatar generation
+- ✅ API integration with Supabase
 
-#### Schichtplanung
-- ✅ Kalenderansicht mit Drag-and-Drop
-- ✅ Schichtformular mit Mitarbeiterauswahl
-- ✅ Kontextmenü für Schichtaktionen
-- ✅ API-Integration für Schichtverwaltung
+#### Shift Planning
+- ✅ Calendar view with drag-and-drop
+- ✅ Shift form with employee selection
+- ✅ Context menu for shift actions
+- ✅ API integration for shift management
 
 #### Dashboard
-- ✅ Übersicht über aktive Schichten
-- ✅ Anzeige anwesender Mitarbeiter
-- ✅ Inventarstatus-Widget
-- ✅ Tagesumsatz-Widget
+- ✅ Overview of active shifts
+- ✅ Display of present employees
+- ✅ Inventory status widget
+- ✅ Daily sales widget
 
-#### Inventarmanagement
-- ✅ Grundlegende Inventarliste
-- ✅ Formular zum Hinzufügen/Bearbeiten von Artikeln
-- ✅ Transaktionsformular für Ein-/Ausgänge
-- ✅ Bestandsberechnungen und Warnungen
-- ✅ Kategorisierung von Inventarartikeln (in Entwicklung)
+#### Inventory Management
+- ✅ Basic inventory list
+- ✅ Form for adding/editing items
+- ✅ Transaction form for inbound/outbound movements
+- ✅ Stock calculations and warnings
+- ✅ Categorization of inventory items (in development)
 
-### In Entwicklung
+### In Development
 
-#### Inventarmanagement
-- 🔄 Erweiterte Kategorisierung mit Icons
-- 🔄 Grafische Darstellung von Bestandsverläufen
-- 🔄 Verbesserte Benutzeroberfläche mit Kachelansicht
+#### Inventory Management
+- 🔄 Advanced categorization with icons
+- 🔄 Graphical representation of stock levels over time
+- 🔄 Improved user interface with tile view
 
-#### Berichtswesen
-- 🔄 Wöchentliche und monatliche Berichte
-- 🔄 Export von Berichten als PDF/CSV
+#### Reporting
+- 🔄 Weekly and monthly reports
+- 🔄 Export of reports as PDF/CSV
 
-### Geplante Funktionen
+### Planned Features
 
-#### Trinkgeldverwaltung
-- 📝 Erfassung und Verteilung von Trinkgeldern
-- 📝 Berechnungsmodelle für gerechte Verteilung
+#### Tip Management
+- 📝 Recording and distribution of tips
+- 📝 Calculation models for fair distribution
 
-#### Zeiterfassung
-- 📝 Stempeluhr-Funktion für Mitarbeiter
-- 📝 Automatische Arbeitszeitberechnung
+#### Time Tracking
+- 📝 Time clock function for employees
+- 📝 Automatic working time calculation
 
-#### Lohnabrechnung
-- 📝 Grundlegende Lohnberechnungen
-- 📝 Export für Buchhaltungssysteme
+#### Payroll
+- 📝 Basic payroll calculations
+- 📝 Export for accounting systems
 
-## 🚀 Installation und Einrichtung
+## 🚀 Installation and Setup
 
-### Voraussetzungen
-- Node.js 18.0 oder höher
-- npm oder yarn
-- PostgreSQL-Datenbank (oder Supabase-Konto)
+### Prerequisites
+- Node.js 18.0 or higher
+- npm or yarn
+- PostgreSQL database (or Supabase account)
 
 ### Installation
 
-1. Repository klonen
+1. Clone the repository
 ```bash
 git clone https://github.com/Uruskus/KetchUp-Hospitality-Management-Web-App.git
 cd ketchup
 ```
 
-2. Abhängigkeiten installieren
+2. Install dependencies
 ```bash
 npm install
-# oder
+# or
 yarn install
 ```
 
-3. Umgebungsvariablen einrichten
-Kopieren Sie die `.env.example`-Datei zu `.env.local` und füllen Sie die erforderlichen Werte aus:
+3. Set up environment variables
+Copy the `.env.example` file to `.env.local` and fill in the required values:
 ```
 NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
@@ -137,43 +137,43 @@ CLERK_SECRET_KEY=your-clerk-secret-key
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
 ```
 
-4. Entwicklungsserver starten
+4. Start the development server
 ```bash
 npm run dev
-# oder
+# or
 yarn dev
 ```
 
-5. Öffnen Sie [http://localhost:3000](http://localhost:3000) in Ihrem Browser
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 📊 Datenbankschema
+## 📊 Database Schema
 
-Das Projekt verwendet folgende Haupttabellen:
+The project uses the following main tables:
 
-- **employees**: Mitarbeiterdaten
-- **shifts**: Schichtinformationen
-- **inventory_items**: Inventarartikel
-- **inventory_transactions**: Ein- und Ausgänge von Inventarartikeln
-- **sales**: Verkaufsdaten
+- **employees**: Employee data
+- **shifts**: Shift information
+- **inventory_items**: Inventory items
+- **inventory_transactions**: Inbound and outbound movements of inventory items
+- **sales**: Sales data
 
-Die vollständigen SQL-Migrations-Skripte finden Sie im Ordner `supabase/migrations/`.
+The complete SQL migration scripts can be found in the `supabase/migrations/` folder.
 
-## 🤝 Mitwirken
+## 🤝 Contributing
 
-Beiträge sind willkommen! Wenn Sie an diesem Projekt mitwirken möchten:
+Contributions are welcome! If you would like to contribute to this project:
 
-1. Forken Sie das Repository
-2. Erstellen Sie einen Feature-Branch (`git checkout -b feature/amazing-feature`)
-3. Committen Sie Ihre Änderungen (`git commit -m 'Add some amazing feature'`)
-4. Pushen Sie den Branch (`git push origin feature/amazing-feature`)
-5. Öffnen Sie einen Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-## 📝 Lizenz
+## 📝 License
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die [LICENSE](LICENSE)-Datei für Details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📬 Kontakt
+## 📬 Contact
 
 Niklas Geispitzheim - niklas.geispitzheim3@gmail.com
 
-Projekt-Link: [https://github.com/Uruskus/KetchUp-Hospitality-Management-Web-App](https://github.com/Uruskus/KetchUp-Hospitality-Management-Web-App)
+Project Link: [https://github.com/Uruskus/KetchUp-Hospitality-Management-Web-App](https://github.com/Uruskus/KetchUp-Hospitality-Management-Web-App)

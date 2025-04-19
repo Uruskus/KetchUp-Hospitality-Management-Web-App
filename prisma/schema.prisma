@@ -1,0 +1,44 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  output = "./node_modules/@prisma/client"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String?
+  position    String?
+  avatarUrl   String?
+  isWorking   Boolean  @default(false)
+  startDate   DateTime @default(now())
+  role        Role     @default(EMPLOYEE)
+  shifts      Shift[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Shift {
+  id        String    @id @default(cuid())
+  startTime DateTime
+  endTime   DateTime?
+  userId    String
+  user      User      @relation(fields: [userId], references: [id])
+  tips      Float?
+  notes     String?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+}
+
+enum Role {
+  ADMIN
+  MANAGER
+  EMPLOYEE
+}
